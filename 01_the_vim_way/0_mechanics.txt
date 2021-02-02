@@ -1,0 +1,45 @@
+Pratice with below example:
+
+Line One
+Line Two 
+Line Three
+Line Four 
+
+x command deletes the character under the cursor.
+dot(.) command repeat last change.
+.. comand repeat twice last change.
+after performing those three tasks, it will become...
+
+ One
+Line Two 
+Line Three
+Line Four 
+
+dd comannd also performs a deletion, but a whole line.
+dot(.) will delete another line
+dot-dot(..) will delete 2 lines
+from the previous output, if after performing those three tasks,,,
+
+(deleted all lines)
+
+Let's come back to the original example: 
+
+Line One
+Line Two 
+Line Three
+Line Four 
+
+>G command increses the indentation from the current line until the end.
+let's try...
+>G
+j
+.
+..
+
+Line One
+	Line Two 
+		Line Three
+				Line Four 
+
+
+
