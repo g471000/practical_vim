@@ -1,0 +1,38 @@
+The end is nigh
+
+From this sentence, if we want to delete backwords, we can move cursor to h, which is at the end, and then
+$: move to the last char
+db: delete from backward, delete word except the char at the cursor
+x: delete one char
+
+
+Then we get this sentence below.
+The end is
+
+Again, we can remove forward, if we star from the beginning then,,,
+The end is nigh
+$: move to the last char
+b: move to first char if we are not at the first char of this word, else back to prev word, first char
+dw: delete word
+Then we can delete like below
+The end is 
+
+For the last, we can delete an entire word by...
+$: move to the last char of the line
+daw: delete entire word
+The end is
+
+So, we learned three techniques for deleting a word: dbx, bdw and daw!
+ 
+
+Let's repeat with using .
+
+Heize - Lyricist
+$db...................x(useful!)
+
+dw....? not useful
+An angel and a demon are on my fingertips Making me write lyrics, whether I’m smiling or crying Even when the paper gets all wet I can’t stop Sometimes, I exaggerate my sadness when I write
+
+$daw..................(very useful!)
+
+winner is....... $daw
