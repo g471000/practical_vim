@@ -1,0 +1,41 @@
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 0px }
+
+from here, we copy, change word, and subtract 180 from the number by...
+j
+yyp
+cW.news<ESC>
+f0
+i-18<ESC>
+
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 0px }
+.news { background-position: -180px 0px }
+
+at the same time, you can subtract by using Control - x
+copy last line, then change it, and subtract 180 again by..
+yyp
+cW.twitter<ESC>
+f0
+180<Contrl-x>
+
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 0px }
+.news { background-position: -180px 0px }
+.twitter { background-position: -360px 0px }
+
+you can do adding by <Control-a>
+agin, let's do...
+yyp
+cW.youtube<ESC>
+f0
+180<Contrl-a>
+
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 0px }
+.news { background-position: -180px 0px }
+.twitter { background-position: -360px 0px }
+.twitter { background-position: -180px 0px }
+
+since we are not using octal numbers frequetnly, adding below to .vimrc would be better:
+set nrformats -=octal
