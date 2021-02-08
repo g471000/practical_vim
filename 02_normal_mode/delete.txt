@@ -1,0 +1,20 @@
+Delete one word
+
+d2w: can delete 2 words at once
+
+Delete one word
+
+2dw: same thing like before. 
+
+Delete Three
+wow
+3dw: delete three words
+
+test 2w
+
+jump 2 words at once from this sentence
+once from this sentence
+2 times of 2dw
+
+
+
