@@ -16,5 +16,13 @@ jump 2 words at once from this sentence
 once from this sentence
 2 times of 2dw
 
+this sentence
+d3w deleted 3 words....
+
+by using c3w, you can remove 3 words and replace the place. For example, 
+I have some more questions.
+
+move cursor to have by using ll or w, then c3wsome more<Esc> you can do... 
+I some more questions.
 
 

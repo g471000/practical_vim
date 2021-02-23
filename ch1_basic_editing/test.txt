@@ -1,0 +1,44 @@
+i: insert mode
+<esc>: escape insert mode
+moving left: h
+moving right:l
+moving down: j
+moving up: k
+
+Example:
+sample line text!!
+
+delete character: x
+
+from the example, after lllxxx
+sam line text!!
+
+from the last result, after uuu
+sample line text!!
+
+then ctrl+r 2 times
+same line text!!
+
+then ZZ? it will save and then escape. so re-enter this file by typing vim test.txt
+then q!? same. it will save (there won't be anything to save but) and then exit. re enter again.
+
+now, a!!!! then
+s!!!!ample line text!!
+
+then dd will delete line. Let's undo by using u
+s!!!!ample line text!!
+
+By using o, open a new line then type "second sample line".
+s!!!!ample line text!!
+secong sample line
+
+Move the cursor at the beginning of this line, by typing 9k and 9j, it will come back to this line. 
+Then move to this line's begeinning by using 0. Then, insert three !s by using 3a!......
+result --> T!!!hen move to this line's begeinning by using 0. Then, insert three !s by using 3a!......
+
+Then, delete the !s by using 3x
+Then move to this line's begeinning by using 0. Then, insert three !s by using 3a!......
+
+
+Nice!
+
