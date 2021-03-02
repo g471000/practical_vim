@@ -1,0 +1,10 @@
+Randorus Randorus Randorus Randorus Randorus 
+
+Ctrl+h: Delete back one character
+Randorus Randorus Randorus Randorus :Ctrl+h, delete a char 
+
+Ctrl+w: Delete back one word
+Randorus Randorus Randorus Randorus: Ctrl+w, delete a word 
+
+Ctrl+u: Delete back to star of line
+ 
