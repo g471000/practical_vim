@@ -1,5 +1,6 @@
 Randorus Randorus Randorus Randorus Randorus 
 
+<Insert Mode>
 Ctrl+h: Delete back one character
 Randorus Randorus Randorus Randorus :Ctrl+h, delete a char 
 
@@ -7,4 +8,12 @@ Ctrl+w: Delete back one word
 Randorus Randorus Randorus Randorus: Ctrl+w, delete a word 
 
 Ctrl+u: Delete back to star of line
- 
+
+<Normal Mode>
+Shift+G: end of the file
+Ctrl-[: Switch to Normal mode
+Ctrl-o: Switch to Insert Normal Mode
+
+
+
+
