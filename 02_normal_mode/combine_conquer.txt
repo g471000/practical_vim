@@ -1,0 +1,21 @@
+First sentence
+second line
+third line
+
+from the given example, we can change a word with using gUaw
+FIRST sentence: gUw
+SECOND LINE: gU2w
+third LINE: w gUw
+
+We can shift using < and >
+		First sentence: >>
+				second line: >> ..
+				third line: >> << >> >>
+
+gUgU or gUU
+FIRST SENTENCE: gUgU
+SECOND LINE: gUU
+third line
+
+gg: move to the top of the file
+=G: moauto indent everything from the cursor position to the end of the file.
